@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import { Switch, Route } from 'react-router-dom';
+import Main from './Main';
 import Homepage from './Homepage';
 import NewBrew from './NewBrew';
 import AboutUs from './AboutUs';
@@ -9,18 +10,10 @@ import AboutUs from './AboutUs';
 function App(){
 
   return (
-    <html>
-    <body>
     <div>
       <Header/>
-      <Switch>
-        <Route exact path='/' component={Homepage}/>
-        <Route path='/newBrew' component={NewBrew}/>
-        <Route path='/aboutUs' component={AboutUs}/>
-      </Switch>
+      <Main/>
     </div>
-    </body>
-    </html>
   );
 }
 
