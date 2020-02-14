@@ -1,7 +1,4 @@
 import React from "react";
-import SuggestionsContainer from "./SuggestionsContainer";
-import TweetsContainer from "./TweetsContainer";
-import ProfileContainer from "./ProfileContainer";
 
 function AboutUs(){
   const griddy = {

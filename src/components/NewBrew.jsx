@@ -1,7 +1,4 @@
 import React from "react";
-import SuggestionsContainer from "./SuggestionsContainer";
-import TweetsContainer from "./TweetsContainer";
-import ProfileContainer from "./ProfileContainer";
 
 function NewBrew(){
   const griddy = {
@@ -13,7 +10,16 @@ function NewBrew(){
   }
 
   return (
-    <p> New keg! </p>
+    <div>
+    <script src="newBrewScript.js"/>
+      <form id="brewForm">
+      <label>
+        name:
+        <input type="text" name="name" />
+      </label>
+      <input type="submit" value="Submit" />
+      </form>
+    </div>
   );
 }
 
