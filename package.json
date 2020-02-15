@@ -1,5 +1,5 @@
 {
-  "name": "Tweeeter",
+  "name": "Fuelbrew",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,17 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unfinishedideas/react-tweeeter.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/unfinishedideas/react-tweeeter"
+    "url": ""
   },
-  "homepage": "https://github.com/unfinishedideas/react-tweeeter",
+  "homepage": "",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.2.2"
   },

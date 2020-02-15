@@ -5,15 +5,17 @@ import Main from './Main';
 import Homepage from './Homepage';
 import NewBrew from './NewBrew';
 import AboutUs from './AboutUs';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container'
 
 
 function App(){
 
   return (
-    <div>
+    <Container>
       <Header/>
       <Main/>
-    </div>
+    </Container>
   );
 }
 
