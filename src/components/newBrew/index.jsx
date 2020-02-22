@@ -1,5 +1,5 @@
 import React from "react";
-
+import NewBrewForm from "./NewBrewForm";
 function NewBrew(){
   const griddy = {
     fontFamily: 'sans-serif',
@@ -11,14 +11,7 @@ function NewBrew(){
 
   return (
     <div>
-    <script src="newBrewScript.js"/>
-      <form id="brewForm">
-      <label>
-        name:
-        <input type="text" name="name" />
-      </label>
-      <input type="submit" value="Submit" />
-      </form>
+      <Ne\wBrewForm/>
     </div>
   );
 }

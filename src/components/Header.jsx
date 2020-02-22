@@ -29,7 +29,6 @@ function Header(){
     <div>
       <div style={headerStyle}>
         <h1>FuelBrew</h1>
-
       </div>
       <div style={navBarStyle}>
       <a href="/#/" style={navLinkStyle}>Home</a>
